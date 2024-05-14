@@ -1,0 +1,224 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+#fakeHeader{
+    width: 100%;
+    height: 15%;
+}
+
+#logo{
+    height: 70%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texts{
+    color: rgb(1, 1, 48);
+}
+.texts:hover{
+    color: rgb(5, 5, 179);
+}
+#contacts{
+    font-weight: lighter;
+}
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 50%;
+}
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+}
+#login:hover{
+    display: flex;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 50px;
+}
+#try{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(6, 176, 6);
+    border-radius: 10px;
+}
+#try:hover{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(2, 107, 2);
+    border-radius: 10px;
+}
+
+
+
+#page1{
+    width: 100%;
+    height: 85%;
+}
+
+#strip{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 7%;
+}
+
+#content{
+    display: flex;
+    width: 100%;
+    height: 76%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#box1{
+    width: 47%;
+    height: 90%;
+    background-color: white;
+    align-items: center;
+}
+#box1 h1{
+    font-weight: 600;
+    color: rgb(3, 3, 74);
+    font-size: 50px;
+    margin: 30px 10px;
+}
+
+#box1 p{
+    font-weight: 600;
+    margin: 10px;
+}
+#btns{
+    display: flex;
+
+}
+#btn1{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(15, 90, 209);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+#btn1:hover{
+    background-color: rgb(8, 48, 111);
+}
+
+#btn2{
+    padding: 10px 20px;
+    margin: 10px;
+
+    background-color: white;
+    color: rgb(15, 90, 209);
+    border-radius: 5px;
+    border: solid rgb(15, 90, 209);
+    text-align: center;
+}
+#btn2:hover{
+    background-color: rgb(228, 240, 244);
+}
+#box2{
+    width: 47%;
+    height: 90%;
+    background-color: white;
+}
+#box2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#heading{
+    width: 100%;
+    height: 16%;
+    font-weight: 600;
+    background-color: white;
+    color: rgb(3, 3, 74);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#page2 {
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#box3{
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#card1 h4:hover{
+    color: skyblue;
+}
+#card2 h4:hover{
+    color: skyblue;
+}
+#card3 h4:hover{
+    color: skyblue;
+}
+#card4 h4:hover{
+    color: skyblue;
+}
+
+
+#page2 img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
